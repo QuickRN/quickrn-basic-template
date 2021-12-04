@@ -3,6 +3,8 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '11.0'
 
+IOS_VERSION = '11.0'
+
 target 'SimpleTemplate' do
   config = use_native_modules!
 
@@ -26,5 +28,20 @@ target 'SimpleTemplate' do
   post_install do |installer|
     react_native_post_install(installer)
     __apply_Xcode_12_5_M1_post_install_workaround(installer)
+  
+    installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = IOS_VERSION
+      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+      config.build_settings["ONLY_ACTIVE_ARCH"] = "YES"
+    end
+
+    case target.name
+    when 'RCT-Folly'
+      target.build_configurations.each do |config|
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '9.0'
+      end
+    end
+  end
   end
 end
