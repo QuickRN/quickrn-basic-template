@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "SimpleTemplate.app"
-               BlueprintName = "SimpleTemplate"
-               ReferencedContainer = "container:SimpleTemplate.xcodeproj">
+               BuildableName = "BasicTemplate.app"
+               BlueprintName = "BasicTemplate"
+               ReferencedContainer = "container:BasicTemplate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "SimpleTemplateTests.xctest"
-               BlueprintName = "SimpleTemplateTests"
-               ReferencedContainer = "container:SimpleTemplate.xcodeproj">
+               BuildableName = "BasicTemplateTests.xctest"
+               BlueprintName = "BasicTemplateTests"
+               ReferencedContainer = "container:BasicTemplate.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "SimpleTemplate.app"
-            BlueprintName = "SimpleTemplate"
-            ReferencedContainer = "container:SimpleTemplate.xcodeproj">
+            BuildableName = "BasicTemplate.app"
+            BlueprintName = "BasicTemplate"
+            ReferencedContainer = "container:BasicTemplate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "SimpleTemplate.app"
-            BlueprintName = "SimpleTemplate"
-            ReferencedContainer = "container:SimpleTemplate.xcodeproj">
+            BuildableName = "BasicTemplate.app"
+            BlueprintName = "BasicTemplate"
+            ReferencedContainer = "container:BasicTemplate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,3 +1,3 @@
-rootProject.name = 'SimpleTemplate'
+rootProject.name = 'Basic Template'
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'

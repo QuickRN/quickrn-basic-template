@@ -5,7 +5,7 @@ platform :ios, '11.0'
 
 IOS_VERSION = '11.0'
 
-target 'SimpleTemplate' do
+target 'BasicTemplate' do
   config = use_native_modules!
 
   use_react_native!(
@@ -14,7 +14,7 @@ target 'SimpleTemplate' do
     :hermes_enabled => false
   )
 
-  target 'SimpleTemplateTests' do
+  target 'BasicTemplateTests' do
     inherit! :complete
     # Pods for testing
   end
