@@ -1,20 +1,22 @@
-import { SafeAreaView, ScrollView, StatusBar, useColorScheme } from 'react-native'
-import { Colors, Header } from 'react-native/Libraries/NewAppScreen'
+import { SafeAreaView, StatusBar, useColorScheme } from 'react-native'
+import NavigationStack from './src/navigation/NavigationStack'
+import { NavigationContainer } from '@react-navigation/native'
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark'
 
   const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
+    backgroundColor: '#fff',
+    flex: 1,
   }
 
   return (
-    <SafeAreaView style={backgroundStyle}>
+    <NavigationContainer>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <ScrollView contentInsetAdjustmentBehavior="automatic" style={backgroundStyle}>
-        <Header />
-      </ScrollView>
-    </SafeAreaView>
+      <SafeAreaView style={backgroundStyle}>
+        <NavigationStack />
+      </SafeAreaView>
+    </NavigationContainer>
   )
 }
 
