@@ -17,13 +17,13 @@ module.exports = {
       {
         cwd: 'babelrc',
         root: ['./'],
-        extensions: ['.ios.js', '.android.js', '.js', '.ts', '.tsx', '.json'],
-        '@lib': './src/lib',
-        '@hooks': './src/hooks',
-        '@assets': './src/assets',
-        '@screens': './src/screens',
-        '@components': './src/components',
-        '@navigation': './src/navigation',
+        extensions: ['.ios.js', '.android.js', '.js', '.ts', '.tsx', '.json', '.svg'],
+        alias: {
+          /**
+           * Regular expression is used to match all files inside `./src` directory and map each `.src/folder/[..]` to `~folder/[..]` path
+           */
+          '^~(.+)': './src/\\1',
+        },
       },
     ],
   ],

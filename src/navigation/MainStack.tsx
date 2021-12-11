@@ -2,7 +2,7 @@ import {
   createNativeStackNavigator,
   NativeStackNavigationProp,
 } from '@react-navigation/native-stack'
-import Home from '../screens/Home'
+import Home from '~screens/Home'
 
 export type MainStackParamList = {
   Home: object | undefined
