@@ -1,5 +1,5 @@
 import { SafeAreaView, StatusBar, useColorScheme } from 'react-native'
-import NavigationStack from './src/navigation/NavigationStack'
+import MainStack from './src/navigation/MainStack'
 import { NavigationContainer } from '@react-navigation/native'
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
     <NavigationContainer>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <SafeAreaView style={backgroundStyle}>
-        <NavigationStack />
+        <MainStack />
       </SafeAreaView>
     </NavigationContainer>
   )
