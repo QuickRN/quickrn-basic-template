@@ -1,6 +1,6 @@
 {
-  "name": "quickrn-basic-template",
-  "version": "0.0.5",
+  "name": "quickrn-template-basic",
+  "version": "0.0.1",
   "description": "QuickRN bare-bones template",
   "repository": "git@github.com:QuickRN/quickrn-basic-template.git",
   "author": "Henry Paulino @ QuickRN <corasan.dev@gmail.com>",

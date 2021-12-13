@@ -1,4 +1,4 @@
 module.exports = {
-  placeholderName: 'QuickRNBasicTemplate',
+  placeholderName: 'QuickRNTemplateBasic',
   templateDir: './template',
 }

@@ -15,7 +15,7 @@ Bare-bones template based on my usual setup for React Native projects.
 
 You can either download, fork or run the following command:
 
-```$ npx react-native init exampleProject --template QuickRN/quickrn-basic-template```
+```$ npx react-native init exampleProject --template QuickRN/quickrn-template-basic```
 
 Make sure to rename the project by running
 
