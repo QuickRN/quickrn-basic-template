@@ -4,12 +4,9 @@ Bare-bones template based on my usual setup for React Native projects.
 
 ## What it includes
 
-- Latest version of React Native (v0.66.4)
+- Latest version of React Native (v0.71.3)
 - React Native SVG
 - [React Navigation](https://reactnavigation.org/)
-- [AppCenter](https://appcenter.ms)
-- [Emotion](https://emotion.sh/docs/introduction)
-
 
 ## How to use
 
