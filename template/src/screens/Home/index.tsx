@@ -7,7 +7,7 @@ export default function Home() {
     <View style={styles.container}>
       <PhoneSVG height={220} width={220} />
       <Text style={styles.title}>
-        This is a <Text style={styles.indigo}>QuickRN</Text> template
+        This is <Text style={styles.indigo}>QuickRN Basic</Text> template
       </Text>
       <Text style={styles.subtext}>
         Go to <Text style={styles.code}> src/screens/Home/index.js </Text> to start editing this screen.
