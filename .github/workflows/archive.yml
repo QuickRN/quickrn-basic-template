@@ -16,3 +16,4 @@ jobs:
         with:
           artifacts: 'quickrn-template-basic.zip'
           token: ${{ secrets.GITHUB_TOKEN }}
+          tag: 'v1.0'
