@@ -11,7 +11,7 @@ jobs:
           type: 'zip'
           filename: 'quickrn-template-basic.zip'
           exclusions: '*.git* /*node_modules/* .editorconfig'
-          directory: './template'
+          path: './template'
       - name: Upload Release
         uses: ncipollo/release-action@v1.12.0
         with:
